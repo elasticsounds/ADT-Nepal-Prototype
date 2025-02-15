@@ -1,2 +1,3 @@
-# ADT-Nepal-Prototype
-The prototype of ADT produced during the Nepal workshop 2025
+# XReader
+
+Copyright (c) 2023 PubCoder srl. All rights reserved.

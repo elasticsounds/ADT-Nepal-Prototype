@@ -1,0 +1,1 @@
+PubViewer.Document.Settings = {"appIdentifier":"54C82863FB7E4AF79E952BF718782747","appName":"acer's Project","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":false,"restoreLatestPage":true};

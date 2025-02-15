@@ -1,0 +1,274 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+div#obj96 {
+position: absolute;
+overflow: hidden;
+top: 85px;
+left: 483px;
+width: 224px;
+height: 142px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: none;
+-webkit-transform: rotate(-1.374835deg);
+-moz-transform: rotate(-1.374835deg);
+transform: rotate(-1.374835deg);
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj319 {
+position: absolute;
+overflow: hidden;
+top: 180px;
+left: 487px;
+width: 231px;
+height: 54px;
+opacity: 1;
+z-index: 8;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj901 {
+position: absolute;
+overflow: hidden;
+top: 341px;
+left: 677px;
+width: 58px;
+height: 64px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj901_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 58px;
+	height: 64px;
+}
+div#obj103 {
+position: absolute;
+overflow: hidden;
+top: 147px;
+left: 69px;
+width: 404px;
+height: 257px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj103_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 404px;
+	height: 257px;
+}
+div#obj88 {
+position: absolute;
+overflow: hidden;
+top: 29px;
+left: 40px;
+width: 59px;
+height: 46px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj88_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 59px;
+	height: 46px;
+}
+div#obj92 {
+position: absolute;
+overflow: hidden;
+top: 88px;
+left: 50px;
+width: 59px;
+height: 46px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj92_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 59px;
+	height: 46px;
+}
+
+div#obj90 {
+position: absolute;
+overflow: hidden;
+top: 38px;
+left: 121px;
+width: 414px;
+height: 57px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj90_content {
+}
+div#obj94 {
+position: absolute;
+overflow: hidden;
+top: 97px;
+left: 121px;
+width: 543px;
+height: 27px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+color: #F21C1C;
+}
+div#obj94_content {
+}
+div#obj100 {
+position: absolute;
+overflow: hidden;
+top: 101px;
+left: 537px;
+width: 131px;
+height: 83px;
+opacity: 1;
+z-index: 7;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj100_content {
+}
+div#obj884 {
+position: absolute;
+overflow: hidden;
+top: 373px;
+left: 34px;
+width: 193px;
+height: 32px;
+opacity: 1;
+z-index: 9;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj884_content {
+}
+
+
+
+
+#obj899 {
+position: absolute;
+overflow: hidden;
+top: 183px;
+left: 606px;
+width: 123px;
+height: 218px;
+opacity: 1;
+z-index: 10;
+display:none;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+
+.SCPage {
+background-color: #FFFFFF
+}

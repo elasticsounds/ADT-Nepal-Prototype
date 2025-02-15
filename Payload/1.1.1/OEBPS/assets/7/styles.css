@@ -1,0 +1,136 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj180 {
+position: absolute;
+overflow: hidden;
+top: 16px;
+left: 34px;
+width: 47px;
+height: 47px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj180_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 47px;
+	height: 47px;
+}
+div#obj187 {
+position: absolute;
+overflow: hidden;
+top: 110px;
+left: 122px;
+width: 340px;
+height: 228px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj187_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 340px;
+	height: 228px;
+}
+
+div#obj182 {
+position: absolute;
+overflow: hidden;
+top: 16px;
+left: 110px;
+width: 365px;
+height: 51px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj182_content {
+}
+div#obj184 {
+position: absolute;
+overflow: hidden;
+top: 84px;
+left: 530px;
+width: 165px;
+height: 250px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj184_content {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+
+.SCPage {
+background-color: #FFFFFF
+}
