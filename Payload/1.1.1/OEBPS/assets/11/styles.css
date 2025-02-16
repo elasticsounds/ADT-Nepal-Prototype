@@ -18,13 +18,13 @@ div.SCContent {
 }
 
 
-div#obj266 {
+div#obj283 {
 position: absolute;
 overflow: hidden;
-top: 115px;
-left: 23px;
-width: 155px;
-height: 93px;
+top: 32px;
+left: 30px;
+width: 43px;
+height: 46px;
 opacity: 1;
 z-index: 0;
 display:block;
@@ -35,44 +35,20 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj266_img {
+img#obj283_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 155px;
-	height: 93px;
+	width: 43px;
+	height: 46px;
 }
-div#obj264 {
+div#obj279 {
 position: absolute;
 overflow: hidden;
-top: 115px;
-left: 192px;
+top: 110px;
+left: 44px;
 width: 145px;
-height: 100px;
-opacity: 1;
-z-index: 1;
-display:block;
-pointer-events: none;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj264_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 145px;
-	height: 100px;
-}
-div#obj262 {
-position: absolute;
-overflow: hidden;
-top: 32px;
-left: 30px;
-width: 43px;
-height: 46px;
+height: 134px;
 opacity: 1;
 z-index: 2;
 display:block;
@@ -83,20 +59,44 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj262_img {
+img#obj279_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 43px;
-	height: 46px;
+	width: 145px;
+	height: 134px;
 }
-div#obj258 {
+div#obj277 {
+position: absolute;
+overflow: hidden;
+top: 110px;
+left: 237px;
+width: 86px;
+height: 187px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj277_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 86px;
+	height: 187px;
+}
+div#obj275 {
 position: absolute;
 overflow: hidden;
 top: 115px;
-left: 389px;
-width: 116px;
-height: 106px;
+left: 387px;
+width: 120px;
+height: 177px;
 opacity: 1;
 z-index: 4;
 display:block;
@@ -107,20 +107,20 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj258_img {
+img#obj275_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 116px;
-	height: 106px;
+	width: 120px;
+	height: 177px;
 }
-div#obj256 {
+div#obj273 {
 position: absolute;
 overflow: hidden;
-top: 130px;
-left: 553px;
-width: 138px;
-height: 74px;
+top: 135px;
+left: 559px;
+width: 145px;
+height: 123px;
 opacity: 1;
 z-index: 5;
 display:block;
@@ -131,23 +131,71 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj256_img {
+img#obj273_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 138px;
-	height: 74px;
+	width: 145px;
+	height: 123px;
 }
-
-div#obj260 {
+div#obj1284 {
 position: absolute;
 overflow: hidden;
-top: 40px;
-left: 86px;
-width: 606px;
-height: 52px;
+top: 369px;
+left: 73px;
+width: 34px;
+height: 36px;
 opacity: 1;
-z-index: 3;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1284_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 36px;
+}
+div#obj1279 {
+position: absolute;
+overflow: hidden;
+top: 364px;
+left: 115px;
+width: 43px;
+height: 44px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1279_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43px;
+	height: 44px;
+}
+
+div#obj281 {
+position: absolute;
+overflow: hidden;
+top: 32px;
+left: 100px;
+width: 600px;
+height: 68px;
+opacity: 1;
+z-index: 1;
 display:block;
 pointer-events: auto;
 user-select: text;  
@@ -156,7 +204,26 @@ user-select: text;
 -ms-user-select: text;
 
 }
-div#obj260_content {
+div#obj281_content {
+}
+div#obj1308 {
+position: absolute;
+overflow: hidden;
+top: 373px;
+left: 34px;
+width: 193px;
+height: 32px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj1308_content {
 }
 
 

@@ -18,30 +18,6 @@ div.SCContent {
 }
 
 
-div#obj294 {
-position: absolute;
-overflow: hidden;
-top: 24px;
-left: 30px;
-width: 43px;
-height: 35px;
-opacity: 1;
-z-index: 0;
-display:block;
-pointer-events: none;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj294_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 43px;
-	height: 35px;
-}
 div#obj290 {
 position: absolute;
 overflow: hidden;
@@ -50,7 +26,7 @@ left: 72px;
 width: 622px;
 height: 292px;
 opacity: 1;
-z-index: 2;
+z-index: 0;
 display:block;
 pointer-events: none;
 
@@ -66,16 +42,88 @@ img#obj290_img {
 	width: 622px;
 	height: 292px;
 }
+div#obj294 {
+position: absolute;
+overflow: hidden;
+top: 24px;
+left: 30px;
+width: 43px;
+height: 35px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj294_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43px;
+	height: 35px;
+}
+div#obj1284 {
+position: absolute;
+overflow: hidden;
+top: 369px;
+left: 73px;
+width: 34px;
+height: 36px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1284_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 36px;
+}
+div#obj1279 {
+position: absolute;
+overflow: hidden;
+top: 364px;
+left: 115px;
+width: 43px;
+height: 44px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1279_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43px;
+	height: 44px;
+}
 
 div#obj292 {
 position: absolute;
 overflow: hidden;
-top: 24px;
-left: 92px;
-width: 333px;
+top: 9px;
+left: 91px;
+width: 616px;
 height: 49px;
 opacity: 1;
-z-index: 1;
+z-index: 2;
 display:block;
 pointer-events: auto;
 user-select: text;  
@@ -85,6 +133,25 @@ user-select: text;
 
 }
 div#obj292_content {
+}
+div#obj1312 {
+position: absolute;
+overflow: hidden;
+top: 373px;
+left: 34px;
+width: 43px;
+height: 32px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj1312_content {
 }
 
 

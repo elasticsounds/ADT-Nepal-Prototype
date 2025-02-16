@@ -25,7 +25,7 @@ left: 348px;
 width: 239px;
 height: 196px;
 opacity: 1;
-z-index: 4;
+z-index: 3;
 display:block;
 pointer-events: none;
 -webkit-transform: rotate(-5.761935deg);
@@ -36,30 +36,6 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-div#obj892 {
-position: absolute;
-overflow: hidden;
-top: 341px;
-left: 676px;
-width: 59px;
-height: 64px;
-opacity: 1;
-z-index: 0;
-display:block;
-pointer-events: auto;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj892_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 59px;
-	height: 64px;
-}
 div#obj24 {
 position: absolute;
 overflow: hidden;
@@ -68,7 +44,7 @@ left: 23px;
 width: 43px;
 height: 46px;
 opacity: 1;
-z-index: 1;
+z-index: 0;
 display:block;
 pointer-events: none;
 
@@ -92,7 +68,7 @@ left: 119px;
 width: 241px;
 height: 254px;
 opacity: 1;
-z-index: 3;
+z-index: 2;
 display:block;
 pointer-events: none;
 
@@ -108,6 +84,54 @@ img#obj31_img {
 	width: 241px;
 	height: 254px;
 }
+div#obj1284 {
+position: absolute;
+overflow: hidden;
+top: 369px;
+left: 73px;
+width: 34px;
+height: 36px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1284_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 36px;
+}
+div#obj1279 {
+position: absolute;
+overflow: hidden;
+top: 364px;
+left: 115px;
+width: 43px;
+height: 44px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1279_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43px;
+	height: 44px;
+}
 
 div#obj26 {
 position: absolute;
@@ -117,7 +141,7 @@ left: 85px;
 width: 189px;
 height: 44px;
 opacity: 1;
-z-index: 2;
+z-index: 1;
 display:block;
 pointer-events: auto;
 user-select: text;  
@@ -136,7 +160,7 @@ left: 395px;
 width: 201px;
 height: 136px;
 opacity: 1;
-z-index: 5;
+z-index: 4;
 display:block;
 pointer-events: auto;
 user-select: text;  
@@ -155,7 +179,7 @@ left: 34px;
 width: 193px;
 height: 32px;
 opacity: 1;
-z-index: 6;
+z-index: 5;
 display:block;
 pointer-events: auto;
 user-select: text;  
@@ -178,7 +202,7 @@ left: 596px;
 width: 128px;
 height: 206px;
 opacity: 1;
-z-index: 7;
+z-index: 6;
 display:none;
 pointer-events: auto;
 

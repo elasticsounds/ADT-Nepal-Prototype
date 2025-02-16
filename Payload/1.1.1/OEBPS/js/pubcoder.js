@@ -2,7 +2,7 @@ var pubcoder = {
 	project: {
 		id : "",
 		title : "",
-        assessments : {"count":0,"items":[],"pagesCount":14,"questions":0,"signature":"c9o6nUxQKImGgSosFaPR+8Vn+vJCvoVwU4+QIdxkDww=","version":1},
+        assessments : {"count":0,"items":[],"pagesCount":13,"questions":0,"signature":"1j9KBMzw/UqcSkRY1VrRNstbQpXnF53rblApnfSVPO8=","version":1},
         pixelsDensity: 2
 	},
 	page: {
@@ -35,12 +35,11 @@ var pubcoder = {
 "page159": "../6/page.xhtml", 
 "page160": "../7/page.xhtml", 
 "page179": "../8/page.xhtml", 
-"page212": "../9/page.xhtml", 
-"page235": "../10/page.xhtml", 
-"page253": "../11/page.xhtml", 
-"page254": "../12/page.xhtml", 
+"page235": "../9/page.xhtml", 
+"page253": "../10/page.xhtml", 
+"page254": "../11/page.xhtml", 
+"page212": "../12/page.xhtml", 
 "page255": "../13/page.xhtml", 
-"page854": "../14/page.xhtml", 
 	},
 	getPageCount: function() {
 		return Object.keys(pubcoder.pages).length;

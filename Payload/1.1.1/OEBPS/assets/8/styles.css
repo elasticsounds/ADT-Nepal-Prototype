@@ -45,8 +45,8 @@ img#obj189_img {
 div#obj198 {
 position: absolute;
 overflow: hidden;
-top: 46px;
-left: 441px;
+top: 16px;
+left: 319px;
 width: 223px;
 height: 154px;
 opacity: 1;
@@ -69,8 +69,8 @@ img#obj198_img {
 div#obj201 {
 position: absolute;
 overflow: hidden;
-top: 181px;
-left: 210px;
+top: 136px;
+left: 152px;
 width: 145px;
 height: 207px;
 opacity: 1;
@@ -89,6 +89,54 @@ img#obj201_img {
 	top: 0px;
 	width: 145px;
 	height: 207px;
+}
+div#obj1284 {
+position: absolute;
+overflow: hidden;
+top: 369px;
+left: 73px;
+width: 34px;
+height: 36px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1284_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 36px;
+}
+div#obj1279 {
+position: absolute;
+overflow: hidden;
+top: 364px;
+left: 115px;
+width: 43px;
+height: 44px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1279_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43px;
+	height: 44px;
 }
 
 div#obj191 {
@@ -132,8 +180,8 @@ div#obj193_content {
 div#obj195 {
 position: absolute;
 overflow: hidden;
-top: 217px;
-left: 520px;
+top: 191px;
+left: 393px;
 width: 187px;
 height: 183px;
 opacity: 1;
@@ -148,11 +196,47 @@ user-select: text;
 }
 div#obj195_content {
 }
+div#obj1299 {
+position: absolute;
+overflow: hidden;
+top: 373px;
+left: 34px;
+width: 193px;
+height: 32px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj1299_content {
+}
 
 
 
 
+#obj1302 {
+position: absolute;
+overflow: hidden;
+top: 147px;
+left: 585px;
+width: 139px;
+height: 251px;
+opacity: 1;
+z-index: 7;
+display:none;
+pointer-events: auto;
 
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+background-color: #000000;
+}
 
 
 

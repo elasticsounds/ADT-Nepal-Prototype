@@ -19,9 +19,9 @@ var askAudioPermission = false;
  *
  * 
  */
-var obj528_onTap_activeActionGroupIndex = -1;
-var obj528_onTap_runningActionsCount = 0;
-var obj528_onTap_loopCount = 0;
+var obj1279_onTap_activeActionGroupIndex = -1;
+var obj1279_onTap_runningActionsCount = 0;
+var obj1279_onTap_loopCount = 0;
 /*
  * 
  * Init SCCounter
@@ -128,185 +128,87 @@ var obj528_onTap_loopCount = 0;
 	 	 *
 	 	 */
 		
-obj528_onTap_actionGroup0 = function(){
+obj1279_onTap_actionGroup0 = function(){
 	isLastActionGroup = false;
 	if (isLastActionGroup) {
-		window.obj528_onTap_activeActionGroupIndex = -1;
-		$("#obj528").trigger("obj528_onTap_ended");
+		window.obj1279_onTap_activeActionGroupIndex = -1;
+		$("#obj1279").trigger("obj1279_onTap_ended");
 		
 		for (var i = 0; i < pubcoder.queuedEvents.length; i++) {
 			const evt = pubcoder.queuedEvents[i];
-			if (evt.senderObjectId == 528) {
-				console.warn("de-queueing event obj528." + evt.eventName);
+			if (evt.senderObjectId == 1279) {
+				console.warn("de-queueing event obj1279." + evt.eventName);
 				pubcoder.queuedEvents.splice(i, 1);
-				$("#obj528").trigger(evt.eventName);
+				$("#obj1279").trigger(evt.eventName);
 				return;
 			}
 		}
 		return;
 	}
-	window.obj528_onTap_activeActionGroupIndex = 0;
+	window.obj1279_onTap_activeActionGroupIndex = 0;
 	
 
-//	action: show 
-//	selector: #obj887
-(function(){
-	window.obj528_onTap_runningActionsCount = obj528_onTap_runningActionsCount + 1;
 
-	var selector = "#obj887";
-	if ($(selector).hasClass("SCImage")) {
-		var lastIndex = $(selector).length-1;
-		$(selector).each(function (index, element) {
-			if ($(element).hasClass("SCImage")) {
-				try {
-					const img = $("img", element)[0];
-					img.decode()
-						.then(function() { showObject(element, index == lastIndex); })
-						.catch(function(encodingError) {
-							console.error(encodingError);
-							showObject(element, index == lastIndex);
-						});
-				} catch (err) {
-					showObject(element, index == lastIndex);
-				}
-			} else {
-				showObject(element, index == lastIndex);
-			}
-		});
-	} else {
-		showObject(selector, true);
-	}
-	
-	function showObject(element, isLast) {
-		$(element).removeClass("animated bounce flash pulse rubberBand shake headShake swing tada wobble jello bounceIn bounceInDown bounceInLeft bounceInRight bounceInUp bounceOut bounceOutDown bounceOutLeft bounceOutRight bounceOutUp fadeIn fadeInDown fadeInDownBig fadeInLeft fadeInLeftBig fadeInRight fadeInRightBig fadeInUp fadeInUpBig fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig flipInX flipInY flipOutX flipOutY lightSpeedIn lightSpeedOut rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight hinge jackInTheBox rollIn rollOut zoomIn zoomInDown zoomInLeft zoomInRight zoomInUp zoomOut zoomOutDown zoomOutLeft zoomOutRight zoomOutUp slideInDown slideInLeft slideInRight slideInUp slideOutDown slideOutLeft slideOutRight slideOutUp heartBeat");
-	
-		var animationType = "";
-		var animationDurationMs = 1000;
-		var animationIterationCount = "1";
-	
-		if ($(element).css("display") == "block" || animationType == "" || animationDurationMs == 0) {
-			setTimeout(function() {
-				$(element).css("display", "block");
-				if (isLast) {
-					window.obj528_onTap_runningActionsCount = window.obj528_onTap_runningActionsCount - 1;
-if (window.obj528_onTap_runningActionsCount < 0) {
-	window.obj528_onTap_runningActionsCount = 0;
-} else if (window.obj528_onTap_runningActionsCount == 0) {
-	obj528_onTap_actionGroup1();
-}
-				}
-				$(element).trigger('SCEventShow');
-			}, 1);
-			return;
-		};
-	
-		$(element).css("animation-duration", animationDurationMs + "ms");
-		$(element).css("animation-iteration-count", animationIterationCount);
-	
-		setTimeout(function() {
-			$(element).css("display", "block");
-			$(element).removeClass("animated " + animationType);
-			if (isLast) {
-				window.obj528_onTap_runningActionsCount = window.obj528_onTap_runningActionsCount - 1;
-if (window.obj528_onTap_runningActionsCount < 0) {
-	window.obj528_onTap_runningActionsCount = 0;
-} else if (window.obj528_onTap_runningActionsCount == 0) {
-	obj528_onTap_actionGroup1();
-}
-			}
-			$(element).trigger('SCEventShow');
-		}, animationDurationMs);
-	
-		$(element).addClass("animated " + animationType);
-		$(element).css("display", "block");
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//	action: Run JavaScript
+runjs_1281();
+function runjs_1281() {
+	window.obj1279_onTap_runningActionsCount = obj1279_onTap_runningActionsCount + 1;
+
+	(function(){
+    // Ensure window.pubcoder and its globalvariables exist
+    if (typeof window.pubcoder === "undefined") {
+        window.pubcoder = {};
+    }
+    if (!window.pubcoder.globalvariables) {
+        window.pubcoder.globalvariables = {};
+    }
+    
+    // Toggle the videosDisabled state
+    var currentState = window.pubcoder.globalvariables.videosDisabled;
+    var newState = !currentState;
+    window.pubcoder.globalvariables.videosDisabled = newState;
+    
+    // Persist the new state in localStorage
+    localStorage.setItem('videosDisabled', newState.toString());
+    console.log("Toggle Button: Toggled videosDisabled state to:", newState);
+    
+    // Update the video elements on the current page based on the new state.
+    var videos = document.querySelectorAll("video");
+    videos.forEach((video, index) => {
+        if (!newState) {
+            console.log("Toggle Button: Showing and playing video #" + (index + 1));
+            video.style.display = "block"; // Adjust as needed for your layout
+            video.play();
+        } else {
+            console.log("Toggle Button: Hiding and pausing video #" + (index + 1));
+            video.pause();
+            video.style.display = "none";
+        }
+    });
 })();
-
-
-//	action: playMovie
-//	target: obj887 
-playMovie_532();
-function playMovie_532() {
-	window.obj528_onTap_runningActionsCount = obj528_onTap_runningActionsCount + 1;
-	var myVideo = $("#obj887")[0];
-	var playFromBeginning = false;
-	var waitForCompletion = true;
-	var doFullscreen = false;
-	if (playFromBeginning) myVideo.currentTime = 0;
-	myVideo.play();
-	try {
-		if (doFullscreen) {
-			function scheduleFullscreen(msec, tries) {
-				if (typeof(tries) === "undefined") {
-					tries = 1;
-				} else if (tries > 5) return;
-				var fn;
-				if (myVideo.requestFullscreen) {
-					console.warn("requestFullscreen;");
-					fn = myVideo.requestFullscreen;
-				} else if (myVideo.mozRequestFullScreen) {
-					console.warn("mozRequestFullScreen;");
-					fn = myVideo.mozRequestFullScreen;
-				} else if (myVideo.webkitRequestFullscreen) {
-					console.warn("webkitRequestFullscreen;");
-					fn = myVideo.webkitRequestFullscreen;
-				} else if (myVideo.msRequestFullscreen) {
-					console.warn("msRequestFullscreen;");
-					fn = myVideo.msRequestFullscreen;
-				} else if (myVideo.webkitEnterFullscreen) {
-					console.warn("webkitEnterFullscreen");
-					fn = myVideo.webkitEnterFullscreen
-				} else {
-					console.warn("no fullscreen support");
-					return;
-				}
-				if (fn == myVideo.webkitEnterFullscreen) {
-					try {
-						fn.call(myVideo);
-					} catch (error) {
-						scheduleFullscreen(1000, tries++);
-					}
-				} else {
-					fn.call(myVideo).catch(function (err) { scheduleFullscreen(1000, tries++); });
-				}
-			}
-			scheduleFullscreen(0);
-		}
-	} catch (error) {
-		// do nothing, just don't go fullscreen
-	}
-	if (waitForCompletion) {
-		var actionEnded = function() {
-			this.removeEventListener('pause',arguments.callee,false);
-			this.removeEventListener('ended',arguments.callee,false);
-		    window.obj528_onTap_runningActionsCount = window.obj528_onTap_runningActionsCount - 1;
-if (window.obj528_onTap_runningActionsCount < 0) {
-	window.obj528_onTap_runningActionsCount = 0;
-} else if (window.obj528_onTap_runningActionsCount == 0) {
-	obj528_onTap_actionGroup1();
+	
+	setTimeout(function() {
+		window.obj1279_onTap_runningActionsCount = window.obj1279_onTap_runningActionsCount - 1;
+if (window.obj1279_onTap_runningActionsCount < 0) {
+	window.obj1279_onTap_runningActionsCount = 0;
+} else if (window.obj1279_onTap_runningActionsCount == 0) {
+	obj1279_onTap_actionGroup1();
 }
-		};
-		// myVideo.addEventListener('pause', actionEnded, false);
-		myVideo.addEventListener('ended', actionEnded, false);
-	} else {
-		window.obj528_onTap_runningActionsCount = window.obj528_onTap_runningActionsCount - 1;
-if (window.obj528_onTap_runningActionsCount < 0) {
-	window.obj528_onTap_runningActionsCount = 0;
-} else if (window.obj528_onTap_runningActionsCount == 0) {
-	obj528_onTap_actionGroup1();
+	}, 1);
 }
-	}
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -315,24 +217,24 @@ if (window.obj528_onTap_runningActionsCount < 0) {
 
 
 };
-obj528_onTap_actionGroup1 = function(){
+obj1279_onTap_actionGroup1 = function(){
 	isLastActionGroup = true;
 	if (isLastActionGroup) {
-		window.obj528_onTap_activeActionGroupIndex = -1;
-		$("#obj528").trigger("obj528_onTap_ended");
+		window.obj1279_onTap_activeActionGroupIndex = -1;
+		$("#obj1279").trigger("obj1279_onTap_ended");
 		
 		for (var i = 0; i < pubcoder.queuedEvents.length; i++) {
 			const evt = pubcoder.queuedEvents[i];
-			if (evt.senderObjectId == 528) {
-				console.warn("de-queueing event obj528." + evt.eventName);
+			if (evt.senderObjectId == 1279) {
+				console.warn("de-queueing event obj1279." + evt.eventName);
 				pubcoder.queuedEvents.splice(i, 1);
-				$("#obj528").trigger(evt.eventName);
+				$("#obj1279").trigger(evt.eventName);
 				return;
 			}
 		}
 		return;
 	}
-	window.obj528_onTap_activeActionGroupIndex = 1;
+	window.obj1279_onTap_activeActionGroupIndex = 1;
 	
 
 
@@ -366,111 +268,121 @@ obj528_onTap_actionGroup1 = function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  *
- *   obj528: Event Touch Down
+ *   obj1279: Event Touch Down
  *
  */
-$("#obj528").bind(PubCoder.Events.Tap, function(event) {
+$("#obj1279").bind(PubCoder.Events.Tap, function(event) {
 	event.preventDefault();	
-	if (window.obj528_onTap_activeActionGroupIndex != -1) {
-	console.warn("action list window.obj528_onTap is still running");
+	if (window.obj1279_onTap_activeActionGroupIndex != -1) {
+	console.warn("action list window.obj1279_onTap is still running");
 	return;
 }
-var obj528_onTap_runningActionsCount = 0;
-var obj528_onTap_loopCount = 0;
-obj528_onTap_actionGroup0();
+var obj1279_onTap_runningActionsCount = 0;
+var obj1279_onTap_loopCount = 0;
+obj1279_onTap_actionGroup0();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -509,7 +421,6 @@ $(window).on(pubcoder.events.pagePlay, function() {
 		});	
 	}
 	
-$("#obj528").trigger('SCEventShow');
 $("#obj9").trigger('SCEventShow');
 $("#obj21").trigger('SCEventShow');
 $("#obj13").trigger('SCEventShow');
@@ -518,5 +429,47 @@ $("#obj6").trigger('SCEventShow');
 $("#obj19").trigger('SCEventShow');
 $("#obj11").trigger('SCEventShow');
 $("#obj324").trigger('SCEventShow');
-	
+$("#obj1284").trigger('SCEventShow');
+$("#obj1279").trigger('SCEventShow');
+	(function(){
+    // Ensure window.pubcoder and its globalvariables exist
+    if (typeof window.pubcoder === "undefined") {
+        window.pubcoder = {};
+    }
+    if (!window.pubcoder.globalvariables) {
+        window.pubcoder.globalvariables = {};
+    }
+    
+    // Retrieve the stored state from localStorage.
+    // If nothing is stored, default to true (videos hidden) and store it.
+    var storedState = localStorage.getItem('videosDisabled');
+    if (storedState === null) {
+        window.pubcoder.globalvariables.videosDisabled = true;
+        localStorage.setItem('videosDisabled', 'true');
+        console.log("Global Code: No stored state. Setting videosDisabled to true (videos hidden) by default.");
+    } else {
+        // Convert the stored string ('true' or 'false') to a Boolean
+        window.pubcoder.globalvariables.videosDisabled = (storedState === 'true');
+        console.log("Global Code: Loaded videosDisabled state from localStorage:", window.pubcoder.globalvariables.videosDisabled);
+    }
+    
+    // Update the video elements on the page based on the global state
+    var isDisabled = window.pubcoder.globalvariables.videosDisabled;
+    console.log("Global Code: Running video update. videosDisabled =", isDisabled);
+    
+    var videos = document.querySelectorAll("video");
+    videos.forEach((video, index) => {
+        // Start by ensuring videos are hidden and paused
+        video.style.display = "none";
+        video.pause();
+        
+        if (!isDisabled) {
+            console.log("Global Code: Showing and playing video #" + (index + 1));
+            video.style.display = "block"; // Adjust this if you need a specific display style
+            video.play();
+        } else {
+            console.log("Global Code: Video #" + (index + 1) + " remains hidden and paused.");
+        }
+    });
+})();
 });

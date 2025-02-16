@@ -17,7 +17,40 @@ div.SCContent {
 	pointer-events: none;
 }
 
+div#obj926 {
+position: absolute;
+overflow: hidden;
+top: 91px;
+left: 312px;
+width: 231px;
+height: 54px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: auto;
 
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+div#obj928 {
+position: absolute;
+overflow: hidden;
+top: 162px;
+left: 312px;
+width: 231px;
+height: 54px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
 div#obj155 {
 position: absolute;
 overflow: hidden;
@@ -41,6 +74,54 @@ img#obj155_img {
 	top: 0px;
 	width: 47px;
 	height: 47px;
+}
+div#obj1284 {
+position: absolute;
+overflow: hidden;
+top: 369px;
+left: 73px;
+width: 34px;
+height: 36px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1284_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 36px;
+}
+div#obj1279 {
+position: absolute;
+overflow: hidden;
+top: 364px;
+left: 115px;
+width: 43px;
+height: 44px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1279_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 43px;
+	height: 44px;
 }
 
 div#obj157 {
@@ -68,7 +149,7 @@ overflow: hidden;
 top: 104px;
 left: 90px;
 width: 422px;
-height: 58px;
+height: 237px;
 opacity: 1;
 z-index: 2;
 display:block;
@@ -81,11 +162,47 @@ user-select: text;
 }
 div#obj161_content {
 }
+div#obj922 {
+position: absolute;
+overflow: hidden;
+top: 373px;
+left: 34px;
+width: 39px;
+height: 32px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj922_content {
+}
 
 
 
 
+#obj1291 {
+position: absolute;
+overflow: hidden;
+top: 183px;
+left: 602px;
+width: 122px;
+height: 221px;
+opacity: 1;
+z-index: 6;
+display:none;
+pointer-events: auto;
 
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+background-color: #000000;
+}
 
 
 

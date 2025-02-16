@@ -18,12 +18,12 @@ div.SCContent {
 }
 
 
-div#obj283 {
+div#obj230 {
 position: absolute;
 overflow: hidden;
-top: 32px;
-left: 30px;
-width: 43px;
+top: 23px;
+left: 36px;
+width: 45px;
 height: 46px;
 opacity: 1;
 z-index: 0;
@@ -35,117 +35,69 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
-img#obj283_img {
+img#obj230_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 45px;
+	height: 46px;
+}
+div#obj1284 {
+position: absolute;
+overflow: hidden;
+top: 369px;
+left: 73px;
+width: 34px;
+height: 36px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1284_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 36px;
+}
+div#obj1279 {
+position: absolute;
+overflow: hidden;
+top: 364px;
+left: 115px;
+width: 43px;
+height: 44px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj1279_img {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 43px;
-	height: 46px;
-}
-div#obj279 {
-position: absolute;
-overflow: hidden;
-top: 110px;
-left: 44px;
-width: 145px;
-height: 134px;
-opacity: 1;
-z-index: 2;
-display:block;
-pointer-events: none;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj279_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 145px;
-	height: 134px;
-}
-div#obj277 {
-position: absolute;
-overflow: hidden;
-top: 110px;
-left: 237px;
-width: 86px;
-height: 187px;
-opacity: 1;
-z-index: 3;
-display:block;
-pointer-events: none;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj277_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 86px;
-	height: 187px;
-}
-div#obj275 {
-position: absolute;
-overflow: hidden;
-top: 115px;
-left: 387px;
-width: 120px;
-height: 177px;
-opacity: 1;
-z-index: 4;
-display:block;
-pointer-events: none;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj275_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 120px;
-	height: 177px;
-}
-div#obj273 {
-position: absolute;
-overflow: hidden;
-top: 135px;
-left: 559px;
-width: 145px;
-height: 123px;
-opacity: 1;
-z-index: 5;
-display:block;
-pointer-events: none;
-
-user-select: none;  
--moz-user-select: none;
--webkit-user-select: none;
--ms-user-select: none;
-}
-img#obj273_img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 145px;
-	height: 123px;
+	height: 44px;
 }
 
-div#obj281 {
+div#obj228 {
 position: absolute;
 overflow: hidden;
-top: 32px;
-left: 100px;
-width: 600px;
-height: 68px;
+top: 23px;
+left: 96px;
+width: 474px;
+height: 54px;
 opacity: 1;
 z-index: 1;
 display:block;
@@ -156,7 +108,26 @@ user-select: text;
 -ms-user-select: text;
 
 }
-div#obj281_content {
+div#obj228_content {
+}
+div#obj1310 {
+position: absolute;
+overflow: hidden;
+top: 373px;
+left: 34px;
+width: 43px;
+height: 32px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+}
+div#obj1310_content {
 }
 
 
@@ -166,7 +137,253 @@ div#obj281_content {
 
 
 
+#obj213{
+  pointer-event: auto !important;
+  height: 317px; /* full height on page */
+  width: 644px; /* full width on page */
+  background-color: rgba(255,255,255,0.8431373);
+  border-color: #909090;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  position: absolute;
+overflow: hidden;
+top: 84px;
+left: 69px;
+width: 644px;
+height: 317px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
 
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+  /* override rotation value */
+  transform:rotate(0deg) !important;
+  -ms-transform:rotate(0deg) !important;
+  -webkit-transform:rotate(0deg) !important;
+}
+#obj213 .drawing-area{
+  /*width and height must be the same as canvas */
+  position: absolute;
+  top: 80px; /* top area offset leaving space for tools, tool sizes and clear btn */
+  left: 0px;
+  z-index: 12; /* this has to be smaller then drawing-area-touch zindex */
+  overflow: hidden !important;
+}
+#obj213 .drawing-area-touch{
+  position: absolute;
+  top: 80px; /* same as drawingarea */
+  left: 0px;
+  z-index: 22; /* this has to be greater then drawing-area zindex */
+  overflow: hidden !important;
+}
+#obj213 .drawing-area-notes {
+  pointer-events: none;
+  position: absolute;
+  top: 80px; /* same as drawingarea */
+  left: 0px;
+  z-index: 22; /* this has to be greater then drawing-area zindex */
+  overflow: hidden !important;
+}
+#obj213 .drawing-tmp-area{
+  position: absolute;
+  top: 80px; /* same as drawingarea */
+  left: 0px;
+  overflow: hidden !important;
+}
+
+/* Resize the tool-bar */
+/* To hide the tool bar, set the drawing canvas to the maximum size */
+#obj213 .tool-bar {
+  display: block;
+  width: 100%;
+  height:30px;  /* user-defined */
+  bottom: 0px;
+  position: absolute;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F4F4F4;
+}
+#obj213 .tool-bar .tool-item {
+    height: 20px;
+    width:  20px; 
+    border : 1px solid transparent;
+    box-sizing: border-box;
+}
+#obj213 .tool-bar .tool-item.selected {
+  box-shadow: 0px 0px 2px 2px #007bff;
+}
+#obj213 .tool-bar .sizeContainer.tool-item {
+    background-color: rgba(128,128,128,0.2);
+    height: 20px;
+    width: 20px;
+    float:left;
+    margin-left: 4px;
+}
+#obj213 .drawing-tools{
+  display: inline-block;
+  float: left;
+  clear: none;
+  margin-right: 20px;
+}
+#obj213 .drawing-tools .tool{
+  display: inline-block;
+  margin: 0px;
+}
+
+/* #obj213 .drawing-tools .tool.selected{
+  border : 1px solid red;
+} */
+#obj213 .drawing-colors{
+    /* display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important; */
+    display: inline-block;
+    float: left;
+    clear: none;
+    position: relative;
+    width:auto;
+}
+#obj213 .drawing-colors .color{
+    display: inline-block;
+    float: left;
+    clear: none;
+    position: relative;
+    margin: 0px 5px 0px 0px;
+}
+#obj213 .drawing-colors .color.selected{
+  border: 1px solid white;
+}
+#obj213 .drawing-size{
+    /* display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important; */
+    display: inline-block;
+    clear: none;
+    position: relative;
+    margin-left: 8px;
+}
+#obj213 .drawing-size .sizeContainer{
+  display: inline-block;
+  width: auto;
+  margin-top:0px;
+}
+#obj213 .drawing-size .size{
+  display: block;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  background-color: #979797;
+  margin: 0px;
+  border-radius: 30px;
+  float: left;
+  clear: none;
+}
+#obj213 .drawing-size .size.selected{
+  background-color: #0A52A2;
+}
+
+#obj213 .drawing-images {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#obj213 .drawing-images .drawing-background{
+  width: auto;
+  height: 60px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline;
+}
+#obj213 .drawing-images .drawing-background-hidden{
+  display:none;
+}
+#obj213 .drawing-buttons {
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    padding: 0px;
+    right: 0px;
+    /* float: right !important; */
+    clear: none;
+}
+#obj213 .drawing-buttons .tool-item {
+  float: left;
+}
+#obj213 .drawing-buttons .tool-item.btn-note {
+  display: none;
+  margin-left: 10px;
+}
+#obj213 .drawing-buttons .tool-item.btn-clear {
+  display: inline-block;
+  margin-left: 10px;
+}
+#obj213 .drawing-buttons .tool-item.btn-close {
+  display: none;
+  margin-left: 10px;
+}
+#obj213.SCAnnotationControl .drawing-buttons .tool-item.btn-close {
+  display: inline-block;
+}
+
+
+#obj213 .scdrawer-note {
+  position: absolute;
+  display: block;
+  pointer-events: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.9);
+  font-size: 16px;
+  
+  box-shadow: 0px 0px 10px 1px #555;
+}
+#obj213 .scdrawer-note-tb {
+    height: 25px;
+    background-color: rgba(200,200,200,0.5);
+}
+#obj213 .scdrawer-note-close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 21px;
+    height: 21px;
+    background-image: url(../../images/scdrawer-close.svg);
+    
+}
+#obj213 .scdrawer-note textarea {
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    resize: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    height: calc(100% - 25px);
+    font-size: 16px;
+    font-family: inherit;
+}
 
 
 
